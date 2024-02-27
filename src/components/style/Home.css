@@ -1,0 +1,127 @@
+.popularBox {
+  background: rgb(160, 0, 133);
+  width: 190px;
+  height: 390px;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  font-size: 10px;
+  gap: 20px;
+  background: linear-gradient(
+    90deg,
+    #001170 0%,
+    #b10093 48%,
+    #b10093 52%,
+    #001170 100%
+  );
+}
+
+.popularBox img {
+  width: 190px;
+  height: 300px;
+  border-radius: 10px 10px 0 0;
+}
+
+.homePopular {
+  display: flex;
+  gap: 20px;
+  overflow-x: scroll;
+  margin-top: 40px;
+}
+
+.homePopular::-webkit-scrollbar {
+  width: 0;
+}
+.popularText {
+  color: white;
+  text-align: start;
+}
+
+.starbox img {
+  width: 1200px;
+  height: 500px;
+}
+
+.starbox1 {
+  width: 1200px;
+  height: 500px;
+  position: absolute;
+  margin-top: -500px;
+  /* background: blue; */
+}
+.starbox1:hover {
+  backdrop-filter: blur(10px);
+  transition: 0, 5s;
+  /* transform: 0.2c; */
+}
+
+.box1 {
+  width: 500px;
+  height: 400px;
+  color: white;
+}
+
+.box1 p {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.box1 h1 {
+  font-size: 30px;
+}
+
+.box1 button {
+  font-size: 20px;
+  width: 220px;
+  height: 60px;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  background: #001170;
+  margin-top: 50px;
+  color: white;
+}
+
+.box2 {
+  /* background: #700000; */
+  width: 500px;
+  height: 200px;
+  font-size: 20px;
+  color: white;
+}
+
+.box2 li :hover {
+  margin-top: -20px;
+}
+.boxt {
+  position: absolute;
+  width: 1200px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  gap: 70px;
+  transition: 0.7s;
+}
+
+.boxt:hover {
+  margin-top: 10px;
+  transition: 0.7s;
+}
+
+.popularBox:hover {
+  background: linear-gradient(
+    90deg,
+    #b10093 0%,
+    #001170 48%,
+    #001170 52%,
+    #b10093 100%
+  );
+}
+
+.mar img {
+  width: 1200px;
+  height: 1000px;
+  background: #001170;
+}

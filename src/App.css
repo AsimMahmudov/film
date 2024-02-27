@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+body {
+  background: rgb(34, 34, 34);
+  /* background: rgb(121, 150, 194); */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* ////////////////////////////// */
+
+.inpP {
+  margin-top: -300px;
+  position: absolute;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.inpP input {
+  width: 800px;
+  height: 70px;
+  margin-left: 90px;
+  border-radius: 30px;
+  padding: 0 20px;
+  font-size: 20px;
+  border: none;
+}
+
+.inpP button {
+  width: 100px;
+  height: 70px;
+  background: blue;
+  border-radius: 30px;
+  padding: 0 20px;
+  font-size: 20px;
+  border: none;
+  margin-left: 20px;
+  color: white;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.ph1 {
+  margin-top: -500px;
+  position: absolute;
+  color: white;
+  font-family: sans-serif;
+  font-size: 30px;
+  margin-left: 90px;
+}
+
+.fo {
+  width: 1190px;
+  border-radius: 0 0 20px 20px;
+}
+
+/* //////////////////////////////// */
+
+.butons button {
+  width: 80px;
+  height: 80px;
+  font-size: 25px;
+  background: rgb(160, 0, 133);
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+}
+
+.butons h4 {
+  font-size: 25px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.butons {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  gap: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+html {
+  scroll-behavior: smooth;
 }
